@@ -1,0 +1,53 @@
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actionList {
+  width: 20%;
+  margin: 40px 0;
+}
+
+.mapWrapper {
+  width: 60%;
+  height: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10vh;
+  right:10%;
+}
+
+.imageContainer {
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 10px 0;
+}
+
+.imageInfo {
+  background-color: black;
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  font-size: 30px;
+}
+
+.centeredImage {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.errorParent{
+  width:100%;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+.errorChild {
+  display: inline-block;
+  margin-top: 30vh;
+}
